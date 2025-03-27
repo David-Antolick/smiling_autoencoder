@@ -212,6 +212,7 @@ def run_training(vae, dataloader, device, epochs, lr=1e-3):
               f"(Recon: {avg_recon:.4f}, KL: {avg_kl:.4f})")
 
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Train a Variational Autoencoder')
     parser.add_argument('--train_data', required=True, help='Path to .npy file with tokenized SMILES')
