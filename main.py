@@ -223,7 +223,7 @@ if __name__ == '__main__':
     parser.add_argument('--embedding_dim', type=int, default=256)
     parser.add_argument('--hidden_dim', type=int, default=256)
     parser.add_argument('--latent_dim', type=int, default=1024)
-    parser.add_argument('--max_length', type=int, default=50)
+    parser.add_argument('--max_length', type=int, default=150)
     parser.add_argument('--limit', type=int, default=None, help='Limit number of training examples')
     args = parser.parse_args()
 
