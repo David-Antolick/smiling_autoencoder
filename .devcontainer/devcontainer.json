@@ -1,0 +1,17 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/nvidia-cuda:1": {}
+	},
+	"runArgs": [
+    "--shm-size=8g",
+    "--gpus=all"
+	],
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// Add this section to mount /large_models into the container
+	"mounts": [
+		"source=/large_models,target=/large_models,type=bind"
+	]
+}
