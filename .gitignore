@@ -1,0 +1,5 @@
+*.npy
+*.pt
+*.gz
+*.smi
+*.ttx
