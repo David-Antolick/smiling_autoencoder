@@ -1,8 +1,0 @@
-Paths to data:
-
-/large_models/datasets/davids/pubchem_simplified.smi
-/large_models/datasets/davids/pubchem_simplified.npy  (preprocessed in preporcess_smiles.py)
-/large_models/datasets/davids/pubchem_simplified_under_50.npy (subset of preprocessed with molecules of length <50 , subset.py)
-
-/large_models/datasets/davids/pubchem_randomized.smi  
-/large_models/datasets/davids/pubchem_randomized.npy (preprocessed in preporcess_smiles.py)

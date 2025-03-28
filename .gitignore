@@ -1,4 +1,7 @@
 *.pt
 *.gz
 *.smi
-*.ttx
+*.pth
+
+
+notes.txt
