@@ -22,7 +22,7 @@ def create_subset(input_npy, output_npy, max_smiles_length=50):
     print("Done.")
 
 if __name__ == "__main__":
-    input_path = "/large_models/datasets/davids/pubchem_simplified.npy"
-    output_path = "/large_models/datasets/davids/pubchem_simplified_under_50.npy"
+    input_path = "data/randoms.npy"
+    output_path = "data/randoms_under_50.npy"
 
     create_subset(input_path, output_path, max_smiles_length=50)
