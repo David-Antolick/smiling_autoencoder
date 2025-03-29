@@ -2,6 +2,8 @@
 *.gz
 *.smi
 *.npy
+*.out
+*.sh
 
 notes.txt
 batch_logs.txt
