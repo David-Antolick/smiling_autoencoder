@@ -4,4 +4,4 @@
 *.pth
 
 
-notes.txt
+notes.txt*.npy
