@@ -221,7 +221,7 @@ if __name__ == '__main__':
     parser.add_argument('--epochs', type=int, default=7, help='Number of epochs')
     parser.add_argument('--lr', type=float, default=1e-3, help='Learning rate')
     parser.add_argument('--embedding_dim', type=int, default=256)
-    parser.add_argument('--hidden_dim', type=int, default=256)
+    parser.add_argument('--hidden_dim', type=int, default=2048)
     parser.add_argument('--latent_dim', type=int, default=1024)
     parser.add_argument('--max_length', type=int, default=150)
     parser.add_argument('--limit', type=int, default=None, help='Limit number of training examples')

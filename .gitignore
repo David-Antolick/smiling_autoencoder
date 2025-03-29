@@ -1,7 +1,6 @@
 *.pt
 *.gz
 *.smi
-*.pth
+*.npy
 
-
-notes.txt*.npy
+notes.txt
