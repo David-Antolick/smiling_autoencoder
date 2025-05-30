@@ -8,7 +8,7 @@
 
 * \*\*Goal \*\*Learn a smooth latent space over canonical SMILES strings and sample **novel, chemically valid molecules** (up to 150 non‑hydrogen atoms).
 * \*\*Model \*\*Bidirectional GRU encoder → 2‑layer latent projection → GRU decoder; optimised with a KL‑annealed ELBO.
-* \*\*Dataset \*\*62 million PubChemLite SMILES (≤ 150 heavy atoms) canonicalised and deduplicated. A **10 % slice (≈ 6.2 M) containing only molecules ≤ 50 heavy atoms** is included in this repo to keep the download small; swap in the full `.npy` to reproduce larger‑scale runs.
+* \*\*Dataset \*\*62 million PubChemLite SMILES (≤ 150 heavy atoms) canonicalised and deduplicated. A **small slice (≈ 3 M) containing only molecules ≤ 50 heavy atoms** is included in this repo to keep the download small; swap in the full `.npy` to reproduce larger‑scale runs.
 * \*\*Key metric \*\*`NovelMols` – count of valid ∧ novel SMILES in a 10 k sample draw.
 
 ---
